@@ -1,0 +1,25 @@
+Project: REPLACED_PROJECT_PATH/invalid
+
+Errors:
+  No such file or directory invalid
+
+  Try adding a config-file to configure how Diginfra should run. See https://diginfra.khulnasoft.com/config-file for details and examples.
+
+ OVERALL TOTAL       $0.00 
+
+*Usage costs can be estimated by updating Diginfra Cloud settings, see docs for other options.
+
+──────────────────────────────────
+No cloud resources were detected
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Project                                            ┃ Baseline cost ┃ Usage cost* ┃ Total cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━┫
+┃ diginfra/diginfra/cmd/diginfra/invalid          ┃         $0.00 ┃           - ┃      $0.00 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━┛
+
+Err:
+
+
+Logs:
+ERROR Could not autodetect any projects from path invalid

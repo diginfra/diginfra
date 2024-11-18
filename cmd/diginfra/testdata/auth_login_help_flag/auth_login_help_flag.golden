@@ -1,0 +1,23 @@
+Authenticate the CLI with your Diginfra account
+
+USAGE
+  diginfra auth login [flags]
+
+EXAMPLES
+  Get a free API key, or log in to your existing account:
+
+      diginfra auth login
+
+      You can also log in at https://infra-dashboard.khulnasoft.com
+
+  Manually set the API key that your CLI should use. The API key can be retrieved from your account:
+
+      diginfra configure set api_key MY_API_KEY
+
+FLAGS
+  -h, --help   help for login
+
+GLOBAL FLAGS
+      --debug-report       Generate a debug report file which can be sent to Diginfra team
+      --log-level string   Log level (trace, debug, info, warn, error, fatal)
+      --no-color           Turn off colored output

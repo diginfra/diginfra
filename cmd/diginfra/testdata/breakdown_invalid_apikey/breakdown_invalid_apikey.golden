@@ -1,0 +1,5 @@
+
+Err:
+Error: Invalid API Key, please check your DIGINFRA_API_KEY environment variable or REPLACED_CREDENTIALS_PATH credentials file.
+If you recently regenerated your API key, you can retrieve it from https://infra-dashboard.khulnasoft.com.
+See https://diginfra.khulnasoft.com/support if you continue having issues.

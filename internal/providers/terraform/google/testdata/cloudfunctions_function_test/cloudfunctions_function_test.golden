@@ -1,0 +1,28 @@
+
+ Name                                        Monthly Qty  Unit         Monthly Cost    
+                                                                                       
+ google_cloudfunctions_function.my_function                                            
+ ├─ CPU                                        1,200,000  GHz-seconds     not found  * 
+ ├─ Memory                                       750,000  GB-seconds      not found  * 
+ ├─ Invocations                               10,000,000  invocations     not found  * 
+ └─ Outbound data transfer                           100  GB              not found  * 
+                                                                                       
+ google_cloudfunctions_function.function                                               
+ ├─ CPU                                      not found                                 
+ ├─ Memory                                   not found                                 
+ ├─ Invocations                              not found                                 
+ └─ Outbound data transfer                   not found                                 
+                                                                                       
+ OVERALL TOTAL                                                                $0.00 
+
+*Usage costs can be estimated by updating Diginfra Cloud settings, see docs for other options.
+
+──────────────────────────────────
+2 cloud resources were detected:
+∙ 2 were estimated
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Project                                            ┃ Baseline cost ┃ Usage cost* ┃ Total cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━┫
+┃ main                                               ┃         $0.00 ┃           - ┃      $0.00 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━┛
