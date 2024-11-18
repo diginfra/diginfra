@@ -1,0 +1,10 @@
+# This is an example config file. It tells Diginfra where the
+# Terraform projects live and any var files they need:
+# `diginfra breakdown --config-file diginfra-projects.yml
+# See docs: https://diginfra.khulnasoft.com/config-file
+version: 0.1
+
+# Details of the repo's Terraform projects, their results will be merged into the same breakdown or diff output
+projects:
+  - path: examples/terraform
+    usage_file: diginfra-usage-example.yml # Define resource usage estimates, see https://diginfra.khulnasoft.com/usage-file

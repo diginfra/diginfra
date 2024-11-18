@@ -1,0 +1,50 @@
+To load completions:
+	
+	Bash:
+	
+		$ source <(diginfra completion --shell bash)
+	
+		# To load completions for each session, execute once:
+		# Linux:
+		$ diginfra completion --shell bash > /etc/bash_completion.d/diginfra
+		# macOS:
+		$ diginfra completion --shell bash > /usr/local/etc/bash_completion.d/diginfra
+	
+	Zsh:
+	
+		# If shell completion is not already enabled in your environment,
+		# you will need to enable it.  You can execute the following once:
+	
+		$ echo "autoload -U compinit; compinit" >> ~/.zshrc
+	
+		# To load completions for each session, execute once:
+		$ diginfra completion --shell zsh > "${fpath[1]}/_diginfra"
+	
+		# You will need to start a new shell for this setup to take effect.
+	
+	fish:
+	
+		$ diginfra completion --shell fish | source
+	
+		# To load completions for each session, execute once:
+		$ diginfra completion --shell fish > ~/.config/fish/completions/diginfra.fish
+	
+	PowerShell:
+	
+		PS> diginfra completion --shell powershell | Out-String | Invoke-Expression
+	
+		# To load completions for every new session, run:
+		PS> diginfra completion --shell powershell > diginfra.ps1
+		# and source this file from your PowerShell profile.
+
+USAGE
+  diginfra completion --shell [bash | zsh | fish | powershell] [flags]
+
+FLAGS
+  -h, --help           help for completion
+      --shell string   supported shell formats: bash, zsh, fish, powershell
+
+GLOBAL FLAGS
+      --debug-report       Generate a debug report file which can be sent to Diginfra team
+      --log-level string   Log level (trace, debug, info, warn, error, fatal)
+      --no-color           Turn off colored output

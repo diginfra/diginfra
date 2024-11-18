@@ -1,0 +1,9 @@
+# You can use this file to define resource usage estimates for Diginfra to use when calculating
+# the cost of usage-based resource, such as AWS Lambda.
+# `diginfra breakdown --usage-file diginfra-usage.yml [other flags]`
+# See https://diginfra.khulnasoft.com/usage-file/ for docs
+version: 0.1
+resource_type_default_usage:
+  aws_lambda_function.hello_world:
+    monthly_requests: 10000000
+    request_duration_ms: 500  # Try changing this to 100 (milliseconds) to compare costs

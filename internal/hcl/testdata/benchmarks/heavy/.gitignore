@@ -1,0 +1,14 @@
+# we want to explicitly keep the benchmarks .diginfra folder as the benchmark
+# tests are only benchmarks for the parsing/evaluation functionality
+
+!.diginfra
+.diginfra/terraform_modules/**/.git
+.diginfra/terraform_modules/**/.github
+.diginfra/terraform_modules/**/Makefile
+.diginfra/terraform_modules/**/README.md
+.diginfra/terraform_modules/**/LICENSE.md
+.diginfra/terraform_modules/**/LICENSE
+.diginfra/terraform_modules/**/README.yaml
+.diginfra/terraform_modules/**/docs
+.diginfra/terraform_modules/**/examples
+.diginfra/terraform_modules/**/test

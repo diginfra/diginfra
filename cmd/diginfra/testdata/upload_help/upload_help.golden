@@ -1,0 +1,28 @@
+Upload an Diginfra JSON file to Diginfra Cloud. This is useful if you
+do not use 'diginfra comment' and instead want to define run metadata,
+such as pull request URL or title, and upload the results manually.
+
+See https://diginfra.khulnasoft.com/docs/features/cli_commands/#upload-runs
+
+USAGE
+  diginfra upload [flags]
+
+EXAMPLES
+  Upload an Diginfra JSON file:
+      export DIGINFRA_VCS_PULL_REQUEST_URL=http://github.com/myorg...
+      export DIGINFRA_VCS_PULL_REQUEST_TITLE="My PR title"
+      # ... other env vars here
+
+      diginfra diff --path plan.json --format json --out-file diginfra.json
+
+      diginfra upload --path diginfra.json
+
+FLAGS
+      --format string   Output format: json
+  -h, --help            help for upload
+      --path string     Path to Diginfra JSON file. (default "p")
+
+GLOBAL FLAGS
+      --debug-report       Generate a debug report file which can be sent to Diginfra team
+      --log-level string   Log level (trace, debug, info, warn, error, fatal)
+      --no-color           Turn off colored output

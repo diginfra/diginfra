@@ -1,0 +1,7 @@
+# You can use this file to define resource usage estimates for Diginfra to use when calculating
+# the cost of usage-based resource, such as AWS S3 or Lambda.
+# `diginfra breakdown --usage-file diginfra-usage.yml [other flags]`
+# See https://diginfra.khulnasoft.com/usage-file/ for docs
+version: 0.1
+# resource_type_default_usage: {}
+# resource_usage: {}
